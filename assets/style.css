@@ -1,0 +1,246 @@
+/*Font
+  font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+/* common code start */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  min-width: 320px;
+}
+
+h2.title span {
+  color: #8e43ea;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+
+h3.big-title {
+  color: #1d2a4d;
+  line-height: 1.2;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+}
+/* commmon code end */
+
+/* nav section start */
+.navber {
+  border-top: 1px solid #d2d2d4;
+}
+
+.navbar .navbar-brand {
+  color: #8e43e7;
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #696969;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: "Jost", sans-serif;
+  margin-left: 12px;
+  margin-right: 12px;
+  transition: 0.5s linear;
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  border: 3px solid transparent;
+  width: 50%;
+  transition: 0.5s linear;
+}
+
+.navbar .navbar-nav .nav-link:hover::before {
+  border: 3px solid#8e43e7;
+  left: 0%;
+  width: 100%;
+}
+
+.navbar .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: 0px;
+  border: 3px solid transparent;
+  width: 0%;
+  transition: 0.5s linear;
+}
+
+.navbar .navbar-nav .nav-link:hover::after {
+  border: 3px solid#8e43e7;
+  right: 0%;
+  width: 50%;
+}
+
+.navbar .navbar-nav .nav-link .navbar .navbar-nav .nav-link.active {
+  color: #8e43e7;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #8e43e7;
+}
+/* nav section end */
+
+.container {
+  background: #faf7fe;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.header-content span {
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 45px;
+  color: #8e43e7;
+}
+
+.devoloper__description {
+  /* font-size: 1rem; */
+  color: #848e9f;
+  font-weight: 400;
+  text-wrap: balance;
+  line-height: 1.4;
+}
+
+header .btn {
+  --bs-btn-padding-x: 2.8rem;
+  --bs-btn-padding-y: 1rem;
+  --bs-btn-font-weight: 400;
+}
+
+header .btn-outline-success {
+  --bs-btn-color: #8e43e7;
+  --bs-btn-border-color: #8e43e7;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #8e43e7;
+  --bs-btn-hover-border-color: #8e43e7;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #8e43e7;
+  --bs-btn-active-border-color: #8e43e7;
+}
+
+/* who section start */
+.about-content h2 span {
+  color: #8e43e7;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.about-content h3 {
+  color: #3f3a64;
+  font-size: 2rem;
+  font-weight: 100px;
+  line-height: 40px;
+  font-family: "Jost", sans-serif;
+}
+
+.about-content p {
+  color: #848e9f;
+  font-weight: 400;
+  text-wrap: balance;
+  line-height: 1.4;
+}
+
+.about-us {
+  background: #eff5f9;
+  border-radius: 50%;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+.title-block p {
+  color: #848e9f;
+  font-weight: 400;
+  line-height: 24px;
+  size: 1rem;
+}
+.about-content .btn {
+  --bs-btn-padding-x: 2.8rem;
+  --bs-btn-padding-y: 1rem;
+  --bs-btn-font-weight: 400;
+}
+.about-content .btn-outline-success {
+  --bs-btn-color: #8e43e7;
+  --bs-btn-border-color: #8e43e7;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #8e43e7;
+}
+/* who section end */
+
+/* resume section start */
+.find-section {
+  margin-top: 100px;
+  background-color: #faf7fe;
+}
+.resume-content h2.title span {
+  color: #8e43e7;
+  font-weight: 700;
+  line-height: 24px;
+  size: 1.5rem;
+  font-family: "Jost", sans-serif;
+}
+
+.resume-content h2 {
+  color: #8e43e7;
+  line-height: 67px;
+  size: 3.2rem;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+}
+
+.resume-text {
+  color: #848e9f;
+  font-weight: 400;
+  text-wrap: balance;
+  line-height: 1.4;
+}
+.resume-content .btn {
+  --bs-btn-padding-x: 2.8rem;
+  --bs-btn-padding-y: 1rem;
+  --bs-btn-font-weight: 700;
+}
+.resume-content .btn-outline-success {
+  --bs-btn-color: #8e43e7;
+  --bs-btn-border-color: #8e43e7;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #8e43e7;
+}
+.resume-content h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 40px;
+  color: #3f3a64;
+  font-family: "Jost", sans-serif;
+}
+/* resum section end */
+
+/* service section start */
+.card-text {
+  color: #848e9f;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.common-btn {
+  color: white;
+  background-color: #8e43e7;
+}
+/* service section end */
